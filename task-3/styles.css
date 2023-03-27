@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+body{
+    background-color: #FEFAE0;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+label{
+    font-size: 20px;
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.section{
+    background-color: #EDDBC7;
+    padding: 20px;
+    border: #A7727D;
+    border-radius: 10px;
+}
+#temp_diff{
+    height: 30px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.myButton{
+    padding-top: 70px;
+}
+button[type="submit"]{
+    width: 60%;
+    height: 60px;
+    border: none;
+    background: #A7727D;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 9px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 10px;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.output{
+    padding: 45px;
+    text-align: center;
+}
+
+/* Two div */
+.flex-container {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+    padding: 50px;
+}  
+.flex-child:first-child {
+    margin-right: 30px;
+}
+.flex-child input, select{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #A7727D;
+    padding-top: 5%;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}

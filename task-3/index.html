@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Temperature Convertor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="section">
+            <h1 class="heading">Temperature Convertor Application</h1>
+            <form class="form1" onsubmit="calculateTemp(); return false;">
+                <div class="flex-container">
+                    <div class="flex-child">
+                        <label for="">Degrees in Celsius</label> <br>
+                        <input type="text" class="input1" id="inputtemp"> 
+                    </div>
+                    <div class="flex-child">
+                        <label for="type" class="row1">Type</label> <br>
+                        <select name="temp" id="temp_diff" >
+                            <option value="Celsius">&degCelsius</option>
+                            <option value="Fahrenheit">&degFahrenheit</option>
+                        </select>
+                    </div>
+                </div>
+                <label class="output" for="">Result</label>
+                <span id="resultContainer"></span> <br>
+                <div class="myButton">
+                    <button type="submit">Convert</button>
+                </div>
+            </form>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
